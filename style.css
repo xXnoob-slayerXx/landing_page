@@ -6,6 +6,8 @@ body,html{
 body{
     font-family: 'Nunito', sans-serif;
     line-height: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero,.header{
@@ -196,6 +198,8 @@ figcaption{
     justify-content:space-evenly;
     align-items: center;
     padding: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     
 }
 
@@ -224,7 +228,7 @@ figcaption{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7%;
+    /* margin-top: 7%; */
     padding: 10px;
     color: white;
 }
