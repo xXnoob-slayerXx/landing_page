@@ -141,25 +141,33 @@ a{
     text-align:center;
 }
 
-.sec2images div {
+.sec2images .myimg {
     /* flex-shrink: 1; */
     /* align-self: center; */
-    border: 2px solid #3882F6;
-    padding: 3px;
+    /* padding: 3px;
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
-    /* width: 200px; */
-    align-items: center;
-    border-radius: 10px;
-    flex-grow: 1;
+    justify-content:flex-start; */
+    /* flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
+    align-items: center; */
+    /* width: 200px; */
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+
     
 
 }
 
+.myimg img{
+    height: 200px;
+    width: 200px;
+}
+
 .section3{
+
+    margin-top: 15%;
 background-color: #E5E7EB;
 
 }
